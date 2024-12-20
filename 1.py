@@ -1,5 +1,6 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        # Brute force example
         res = []
         for i in range(len(nums)):
             # Select ith number
@@ -13,3 +14,12 @@ class Solution:
                     res.append(j)
                     return res
                 # else, loop through again
+
+
+        # two-pass hash table
+        hashmap = {}
+        for i in range(len(nums)):
+            hashmap[nums[i]] = i
+        for i in range(len(nums)):
+            if (target - nums[i]) in hashmap and hashmap[target-nums[i]] != i:
+                return i, hashmap[target-nums[i]]
