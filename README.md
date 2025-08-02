@@ -4,6 +4,7 @@ https://leetcode.com/
 ### LEETCODE 15 patterns (https://www.youtube.com/watch?v=DjYZk8nrXVY)
 
 1. Prefix sum
+- Use case: Query sum of elements in a subarray
 - 303, 525, 560
 
 2. Two pointers
