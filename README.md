@@ -8,27 +8,37 @@ https://leetcode.com/
 - 303, 525, 560
 
 2. Two pointers
+- Use case: palindrom
 - 11, 15, 167
 
 3. Sliding Window
+- Use case: subarray, substring
 - 3, 76, 643
 
 4. Fast and Slow Pointers
+- Use case: if a linked list contains cycle?, middle of the linked list
 - 141, 202, 287
 
 5. Linked list in-place reversal
+- Use case: Reverse a linked list, rearrange the list
+- Use three points (prev, curr, next)
 - 24, 92, 206
 
 6. Monotonic Stack
+- Use case: Next greater/next smaller item in the array
 - 84, 496, 739
 
 7. Top k elements
+- Use case: K largest/smallest/most frequent
+- Using min/max heap
 - 215, 347, 373
 
 8. Overlapping Intervals
+- Use case: merging interval, interval intersection, insert interval, find minimum meeting rooms
 - 56, 57, 435
 
 9. Modified Binary Search
+- Use case: 
 - 33, 153, 240
 
 10. Binary Tree Traversal
